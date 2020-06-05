@@ -1,0 +1,1611 @@
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm init -y
+Wrote to C:\Users\Kiran\Desktop\webpacks\package.json:
+
+{
+  "name": "webpacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save-dev webpack webpack-cli
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN notsup Unsupported engine for watchpack-chokidar2@2.0.0: wanted: {"node":"<8.10.0"} (current: {"node":"12.17.0","npm":"6.14.4"})
+npm WARN notsup Not compatible with your version of node/npm: watchpack-chokidar2@2.0.0
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\watchpack-chokidar2\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ webpack-cli@3.3.11
++ webpack@4.43.0
+added 409 packages from 218 contributors and audited 411 packages in 56.49s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack
+
+
+Insufficient number of arguments or no entry found.
+Alternatively, run 'webpack(-cli) --help' for usage info.
+
+Hash: b8ff079f36984ac2e631
+Version: webpack 4.43.0
+Time: 46ms
+Built at: 06/05/2020 9:37:33 AM
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+ERROR in Entry module not found: Error: Can't resolve './src' in 'C:\Users\Kiran\Desktop\webpacks'
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 start: `webpack`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T04_07_33_336Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack
+
+Hash: db82a3e86895d2858d9a
+Version: webpack 4.43.0
+Time: 469ms
+Built at: 06/05/2020 9:38:42 AM
+  Asset       Size  Chunks             Chunk Names
+main.js  950 bytes       0  [emitted]  main
+Entrypoint main = main.js
+[0] ./src/index.js 21 bytes {0} [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack
+
+Hash: e93cb2130c9bafa7bfb7
+Version: webpack 4.43.0
+Time: 533ms
+Built at: 06/05/2020 10:00:55 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  1.93 KiB       0  [emitted]  main
+Entrypoint main = main.js
+[0] ./src/index.js + 5 modules 2.34 KiB {0} [built]
+    | ./src/index.js 270 bytes [built]
+    | ./src/app/app.js 623 bytes [built]
+    | ./src/app/alert.service.js 693 bytes [built]
+    | ./src/app/component.service.js 586 bytes [built]
+    | ./src/app/utils/inputs-are-valid.js 127 bytes [built]
+    | ./src/app/utils/parse-inputs.js 97 bytes [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+
+Insufficient number of arguments or no entry found.
+Alternatively, run 'webpack(-cli) --help' for usage info.
+
+Hash: 8a3dda9ad19ff76feb49
+Version: webpack 4.43.0
+Time: 43ms
+Built at: 06/05/2020 10:18:07 AM
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+ERROR in Entry module not found: Error: Can't resolve './app/index.js' in 'C:\Users\Kiran\Desktop\webpacks'
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 start: `webpack --config webpack.config.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T04_48_07_644Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 0197218dc778212ab5f8
+Version: webpack 4.43.0
+Time: 139ms
+Built at: 06/05/2020 10:19:36 AM
+   Asset      Size  Chunks             Chunk Names
+hello.js  1.93 KiB       0  [emitted]  main
+Entrypoint main = hello.js
+[0] ./src/index.js + 5 modules 2.34 KiB {0} [built]
+    | ./src/index.js 270 bytes [built]
+    | ./src/app/app.js 623 bytes [built]
+    | ./src/app/alert.service.js 693 bytes [built]
+    | ./src/app/component.service.js 586 bytes [built]
+    | ./src/app/utils/inputs-are-valid.js 127 bytes [built]
+    | ./src/app/utils/parse-inputs.js 97 bytes [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ rm -rf CODEE/
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 79713623d26cb911eacf
+Version: webpack 4.43.0
+Time: 115ms
+Built at: 06/05/2020 10:23:00 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  9.92 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 270 bytes {main} [built]
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: cf9c1d453ec145470e34
+Version: webpack 4.43.0
+Time: 104ms
+Built at: 06/05/2020 10:24:38 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  9.34 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 270 bytes {main} [built]
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save-dev css-loader
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ css-loader@3.5.3
+added 16 packages from 51 contributors and audited 427 packages in 6.669s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 30750cc25b6d63d43322
+Version: webpack 4.43.0
+Time: 120ms
+Built at: 06/05/2020 10:44:30 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  10.1 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 303 bytes {main} [built]
+
+ERROR in ./src/index.js
+Module not found: Error: Can't resolve 'style-loader' in 'C:\Users\Kiran\Desktop\webpacks'
+ @ ./src/index.js 2:0-29
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 start: `webpack --config webpack.config.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T05_14_30_852Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 9def9e713d64974018ce
+Version: webpack 4.43.0
+Time: 115ms
+Built at: 06/05/2020 10:44:59 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  10.1 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 294 bytes {main} [built]
+
+ERROR in ./src/index.js
+Module not found: Error: Can't resolve 'style-loader' in 'C:\Users\Kiran\Desktop\webpacks'
+ @ ./src/index.js 2:0-20
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 start: `webpack --config webpack.config.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T05_14_59_926Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: b8bcb45af89d65a07014
+Version: webpack 4.43.0
+Time: 504ms
+Built at: 06/05/2020 10:46:36 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  13.8 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 294 bytes {main} [built]
+[./src/main.css] 275 bytes {main} [built]
+    + 1 hidden module
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 7bf46f18f041d0cc073d
+Version: webpack 4.43.0
+Time: 136ms
+Built at: 06/05/2020 10:50:04 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  10.1 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 294 bytes {main} [built]
+
+ERROR in ./src/index.js
+Module not found: Error: Can't resolve 'style-loader' in 'C:\Users\Kiran\Desktop\webpacks'
+ @ ./src/index.js 2:0-20
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 start: `webpack --config webpack.config.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T05_20_04_714Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: b8bcb45af89d65a07014
+Version: webpack 4.43.0
+Time: 468ms
+Built at: 06/05/2020 10:55:02 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  13.8 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 294 bytes {main} [built]
+[./src/main.css] 275 bytes {main} [built]
+    + 1 hidden module
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 7bf46f18f041d0cc073d
+Version: webpack 4.43.0
+Time: 119ms
+Built at: 06/05/2020 10:58:00 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  10.1 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 294 bytes {main} [built]
+
+ERROR in ./src/index.js
+Module not found: Error: Can't resolve 'style-loader' in 'C:\Users\Kiran\Desktop\webpacks'
+ @ ./src/index.js 2:0-20
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 start: `webpack --config webpack.config.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T05_28_00_355Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save-dev bootstrap
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@4.5.0
+added 1 package from 2 contributors and audited 428 packages in 4.561s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install sass-loader sass webpack --save-dev
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for watchpack-chokidar2@2.0.0: wanted: {"node":"<8.10.0"} (current: {"node":"12.17.0","npm":"6.14.4"})
+npm WARN notsup Not compatible with your version of node/npm: watchpack-chokidar2@2.0.0
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\watchpack-chokidar2\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+
++ sass-loader@8.0.2
++ webpack@4.43.0
++ sass@1.26.8
+added 7 packages from 5 contributors, updated 2 packages and audited 435 packages in 29.839s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: c0c5817a4439b8dddee9
+Version: webpack 4.43.0
+Time: 149ms
+Built at: 06/05/2020 11:18:27 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  10.1 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 295 bytes {main} [built]
+
+ERROR in ./src/index.js
+Module not found: Error: Can't resolve 'style-loader' in 'C:\Users\Kiran\Desktop\webpacks'
+ @ ./src/index.js 2:0-21
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 start: `webpack --config webpack.config.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T05_48_27_327Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: babd178e9003dfdfd2e1
+Version: webpack 4.43.0
+Time: 124ms
+Built at: 06/05/2020 11:20:50 AM
+  Asset      Size  Chunks             Chunk Names
+main.js  10.1 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 293 bytes {main} [built]
+
+ERROR in ./src/index.js
+Module not found: Error: Can't resolve 'style-loader' in 'C:\Users\Kiran\Desktop\webpacks'
+ @ ./src/index.js 2:0-21
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 start: `webpack --config webpack.config.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T05_50_50_204Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save-dev style-loader
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ style-loader@1.2.1
+added 3 packages from 5 contributors and audited 438 packages in 5.439s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 74525e21f3a93fa1dda1
+Version: webpack 4.43.0
+Time: 3482ms
+Built at: 06/05/2020 11:22:15 AM
+  Asset     Size  Chunks             Chunk Names
+main.js  217 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 293 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 2 hidden modules
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 74525e21f3a93fa1dda1
+Version: webpack 4.43.0
+Time: 3096ms
+Built at: 06/05/2020 11:24:50 AM
+  Asset     Size  Chunks             Chunk Names
+main.js  217 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 293 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 2 hidden modules
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: b64ea9877cd384df30c3
+Version: webpack 4.43.0
+Time: 3234ms
+Built at: 06/05/2020 11:26:15 AM
+  Asset     Size  Chunks             Chunk Names
+main.js  217 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 293 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 2 hidden modules
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 773c0798d82ff69698c2
+Version: webpack 4.43.0
+Time: 3194ms
+Built at: 06/05/2020 2:44:50 PM
+                       Asset     Size  Chunks                         Chunk Names
+main.a01ff251162acf2cec40.js  217 KiB    main  [emitted] [immutable]  main
+Entrypoint main = main.a01ff251162acf2cec40.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 293 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 2 hidden modules
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 773c0798d82ff69698c2
+Version: webpack 4.43.0
+Time: 3667ms
+Built at: 06/05/2020 2:45:50 PM
+                       Asset     Size  Chunks                         Chunk Names
+main.a01ff251162acf2cec40.js  217 KiB    main  [emitted] [immutable]  main
+Entrypoint main = main.a01ff251162acf2cec40.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 293 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 2 hidden modules
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 60988ad0fb80807905ff
+Version: webpack 4.43.0
+Time: 4163ms
+Built at: 06/05/2020 2:46:42 PM
+                       Asset     Size  Chunks                         Chunk Names
+main.9ece5ffb06b758779534.js  217 KiB    main  [emitted] [immutable]  main
+Entrypoint main = main.9ece5ffb06b758779534.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 313 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 2 hidden modules
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save-dev html-webpack-plugin
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ html-webpack-plugin@4.3.0
+added 63 packages from 130 contributors and audited 501 packages in 33.631s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: bc57471456a376a322fc
+Version: webpack 4.43.0
+Time: 3236ms
+Built at: 06/05/2020 2:53:03 PM
+                       Asset       Size  Chunks                         Chunk Names
+                  index.html  246 bytes          [emitted]
+main.9ece5ffb06b758779534.js    217 KiB    main  [emitted] [immutable]  main
+Entrypoint main = main.9ece5ffb06b758779534.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 313 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 2 hidden modules
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+       1 module
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.config.js
+
+Hash: 7368c19211da3ffd6a3a
+Version: webpack 4.43.0
+Time: 3195ms
+Built at: 06/05/2020 2:58:00 PM
+                       Asset      Size  Chunks                         Chunk Names
+                  index.html  1.22 KiB          [emitted]
+main.9ece5ffb06b758779534.js   217 KiB    main  [emitted] [immutable]  main
+Entrypoint main = main.9ece5ffb06b758779534.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 313 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 2 hidden modules
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html] 1.49 KiB {HtmlWebpackPlugin_0} [built]
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save-dev webpack-merge
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ webpack-merge@4.2.2
+added 1 package from 1 contributor and audited 502 packages in 5.055s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ nppm start
+bash: nppm: command not found
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.dev.js
+
+Hash: 5c851755ccdfbd9d9d72
+Version: webpack 4.43.0
+Time: 3905ms
+Built at: 06/05/2020 3:14:33 PM
+     Asset     Size  Chunks             Chunk Names
+index.html  1.2 KiB          [emitted]
+   main.js  217 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/app/utils/inputs-are-valid.js] 127 bytes {main} [built]
+[./src/app/utils/parse-inputs.js] 97 bytes {main} [built]
+[./src/index.js] 313 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 2 hidden modules
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html] 1.49 KiB {HtmlWebpackPlugin_0} [built]
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+Hash: 52b807926426f3c5c9f6
+Version: webpack 4.43.0
+Time: 498ms
+Built at: 06/05/2020 3:15:16 PM
+ 1 asset
+Entrypoint main = main.ee5524d76ecd59639c93.js
+[0] ./src/main.scss 298 bytes {0} [built] [failed] [1 error]
+[1] ./src/index.js + 5 modules 2.39 KiB {0} [built]
+    | ./src/index.js 313 bytes [built]
+    | ./src/app/app.js 623 bytes [built]
+    | ./src/app/alert.service.js 693 bytes [built]
+    | ./src/app/component.service.js 586 bytes [built]
+    | ./src/app/utils/inputs-are-valid.js 127 bytes [built]
+    | ./src/app/utils/parse-inputs.js 97 bytes [built]
+
+ERROR in ./src/main.scss 2:0
+Module parse failed: Unexpected character '@' (2:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| $primary: yellow;
+> @import "~bootstrap/scss/bootstrap";
+ @ ./src/index.js 2:0-21
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 build: `webpack --config webpack.prod.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T09_45_16_297Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+Hash: 52b807926426f3c5c9f6
+Version: webpack 4.43.0
+Time: 173ms
+Built at: 06/05/2020 3:16:53 PM
+ 1 asset
+Entrypoint main = main.ee5524d76ecd59639c93.js
+[0] ./src/main.scss 298 bytes {0} [built] [failed] [1 error]
+[1] ./src/index.js + 5 modules 2.39 KiB {0} [built]
+    | ./src/index.js 313 bytes [built]
+    | ./src/app/app.js 623 bytes [built]
+    | ./src/app/alert.service.js 693 bytes [built]
+    | ./src/app/component.service.js 586 bytes [built]
+    | ./src/app/utils/inputs-are-valid.js 127 bytes [built]
+    | ./src/app/utils/parse-inputs.js 97 bytes [built]
+
+ERROR in ./src/main.scss 2:0
+Module parse failed: Unexpected character '@' (2:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| $primary: yellow;
+> @import "~bootstrap/scss/bootstrap";
+ @ ./src/index.js 2:0-21
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 build: `webpack --config webpack.prod.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T09_46_53_973Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+Hash: 7ab3c0b64f4b792aa5b3
+Version: webpack 4.43.0
+Time: 4395ms
+Built at: 06/05/2020 3:18:04 PM
+                       Asset       Size  Chunks                         Chunk Names
+                  index.html  946 bytes          [emitted]
+main.10f2ac83ad48d88c4fc1.js    149 KiB       0  [emitted] [immutable]  main
+Entrypoint main = main.10f2ac83ad48d88c4fc1.js
+[0] ./src/main.scss 559 bytes {0} [built]
+[2] ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss 143 KiB {0} [built]
+[4] ./src/index.js + 5 modules 2.39 KiB {0} [built]
+    | ./src/index.js 313 bytes [built]
+    | ./src/app/app.js 623 bytes [built]
+    | ./src/app/alert.service.js 693 bytes [built]
+    | ./src/app/component.service.js 586 bytes [built]
+    | ./src/app/utils/inputs-are-valid.js 127 bytes [built]
+    | ./src/app/utils/parse-inputs.js 97 bytes [built]
+    + 2 hidden modules
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [0] ./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html 1.49 KiB {0} [built]
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save-dev webpack-dev-server
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\webpack-dev-server\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ webpack-dev-server@3.11.0
+added 160 packages from 115 contributors and audited 663 packages in 29.67s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack--dev-server  --config webpack.dev.js--open
+
+'webpack--dev-server' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! webpacks@1.0.0 start: `webpack--dev-server  --config webpack.dev.js--open`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T09_51_00_071Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack-dev-server  --config webpack.dev.js--open
+
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\Kiran\Desktop\webpacks\webpack.dev.js--open'
+Require stack:
+- C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js
+- C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-dev-server\bin\webpack-dev-server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at WEBPACK_OPTIONS (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:114:13)
+    at requireConfig (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:116:6)
+    at C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:121:15)
+    at Object.<anonymous> (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-dev-server\bin\webpack-dev-server.js:84:40) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Kiran\\Desktop\\webpacks\\node_modules\\webpack-cli\\bin\\utils\\convert-argv.js',
+    'C:\\Users\\Kiran\\Desktop\\webpacks\\node_modules\\webpack-dev-server\\bin\\webpack-dev-server.js'
+  ]
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! webpacks@1.0.0 start: `webpack-dev-server  --config webpack.dev.js--open`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T09_51_29_986Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack-dev-server  --config webpack.dev.js --open
+
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from C:\Users\Kiran\Desktop\webpacks
+i ｢wdm｣: wait until bundle finished: /
+i ｢wdm｣: Hash: ca06735b4dfbc291ca11
+Version: webpack 4.43.0
+Time: 4850ms
+Built at: 06/05/2020 3:22:16 PM
+     Asset     Size  Chunks             Chunk Names
+index.html  1.2 KiB          [emitted]
+   main.js  575 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[0] multi (webpack)-dev-server/client?http://localhost:8080 ./src/index.js 40 bytes {main} [built]
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:8080] (webpack)-dev-server/client?http://localhost:8080 4.29 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {main} [built]
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {main} [built]
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] (webpack)-dev-server/node_modules/strip-ansi/index.js 161 bytes {main} [built]
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/index.js] 313 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 27 hidden modules
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html] 1.49 KiB {HtmlWebpackPlugin_0} [built]
+i ｢wdm｣: Compiled successfully.
+i ｢wdm｣: Compiling...
+× ｢wdm｣: Hash: 9884ef239669d152fea8
+Version: webpack 4.43.0
+Time: 97ms
+Built at: 06/05/2020 3:22:44 PM
+  Asset     Size  Chunks             Chunk Names
+main.js  378 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 557 bytes {main} [built] [failed] [1 error]
+    + 40 hidden modules
+
+ERROR in ./src/main.scss (./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: $color: yello is not a color.
+    ╷
+183 │ $link-hover-color:                        darken($link-color, 15%) !default;
+    │                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  node_modules\bootstrap\scss\_variables.scss 183:43  @import
+  node_modules\bootstrap\scss\bootstrap.scss 9:9      @import
+  C:\Users\Kiran\Desktop\webpacks\src\main.scss 2:9                                           root stylesheet
+ @ ./src/main.scss 2:26-129
+ @ ./src/index.js
+i ｢wdm｣: Failed to compile.
+i ｢wdm｣: Compiling...
+× ｢wdm｣: Hash: 430e6785fb3c3dc17b4d
+Version: webpack 4.43.0
+Time: 64ms
+Built at: 06/05/2020 3:22:45 PM
+  Asset     Size  Chunks             Chunk Names
+main.js  378 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 553 bytes {main} [built] [failed] [1 error]
+    + 40 hidden modules
+
+ERROR in ./src/main.scss (./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: $color: y is not a color.
+    ╷
+183 │ $link-hover-color:                        darken($link-color, 15%) !default;
+    │                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  node_modules\bootstrap\scss\_variables.scss 183:43  @import
+  node_modules\bootstrap\scss\bootstrap.scss 9:9      @import
+  C:\Users\Kiran\Desktop\webpacks\src\main.scss 2:9                                           root stylesheet
+ @ ./src/main.scss 2:26-129
+ @ ./src/index.js
+i ｢wdm｣: Failed to compile.
+i ｢wdm｣: Compiling...
+× ｢wdm｣: Hash: 3947202064cd923c6c84
+Version: webpack 4.43.0
+Time: 16ms
+Built at: 06/05/2020 3:22:45 PM
+  Asset     Size  Chunks             Chunk Names
+main.js  377 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 250 bytes {main} [built] [failed] [1 error]
+    + 40 hidden modules
+
+ERROR in ./src/main.scss (./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: Expected expression.
+  ╷
+1 │ $primary: ;
+  │           ^
+  ╵
+  C:\Users\Kiran\Desktop\webpacks\src\main.scss 1:11  root stylesheet
+ @ ./src/main.scss 2:26-129
+ @ ./src/index.js
+i ｢wdm｣: Failed to compile.
+i ｢wdm｣: Compiling...
+× ｢wdm｣: Hash: 62807f974d612e4b0701
+Version: webpack 4.43.0
+Time: 130ms
+Built at: 06/05/2020 3:22:46 PM
+  Asset     Size  Chunks             Chunk Names
+main.js  378 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 554 bytes {main} [built] [failed] [1 error]
+    + 40 hidden modules
+
+ERROR in ./src/main.scss (./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: $color: or is not a color.
+    ╷
+183 │ $link-hover-color:                        darken($link-color, 15%) !default;
+    │                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  node_modules\bootstrap\scss\_variables.scss 183:43  @import
+  node_modules\bootstrap\scss\bootstrap.scss 9:9      @import
+  C:\Users\Kiran\Desktop\webpacks\src\main.scss 2:9                                           root stylesheet
+ @ ./src/main.scss 2:26-129
+ @ ./src/index.js
+i ｢wdm｣: Failed to compile.
+i ｢wdm｣: Compiling...
+× ｢wdm｣: Hash: fd254a26a0ce8426f309
+Version: webpack 4.43.0
+Time: 52ms
+Built at: 06/05/2020 3:22:46 PM
+  Asset     Size  Chunks             Chunk Names
+main.js  378 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 556 bytes {main} [built] [failed] [1 error]
+    + 40 hidden modules
+
+ERROR in ./src/main.scss (./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: $color: oran is not a color.
+    ╷
+183 │ $link-hover-color:                        darken($link-color, 15%) !default;
+    │                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  node_modules\bootstrap\scss\_variables.scss 183:43  @import
+  node_modules\bootstrap\scss\bootstrap.scss 9:9      @import
+  C:\Users\Kiran\Desktop\webpacks\src\main.scss 2:9                                           root stylesheet
+ @ ./src/main.scss 2:26-129
+ @ ./src/index.js
+i ｢wdm｣: Failed to compile.
+i ｢wdm｣: Compiling...
+× ｢wdm｣: Hash: e0629d36ec49179033d2
+Version: webpack 4.43.0
+Time: 121ms
+Built at: 06/05/2020 3:22:47 PM
+  Asset     Size  Chunks             Chunk Names
+main.js  378 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 557 bytes {main} [built] [failed] [1 error]
+    + 40 hidden modules
+
+ERROR in ./src/main.scss (./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: $color: orang is not a color.
+    ╷
+183 │ $link-hover-color:                        darken($link-color, 15%) !default;
+    │                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  node_modules\bootstrap\scss\_variables.scss 183:43  @import
+  node_modules\bootstrap\scss\bootstrap.scss 9:9      @import
+  C:\Users\Kiran\Desktop\webpacks\src\main.scss 2:9                                           root stylesheet
+ @ ./src/main.scss 2:26-129
+ @ ./src/index.js
+i ｢wdm｣: Failed to compile.
+i ｢wdm｣: Compiling...
+i ｢wdm｣: Hash: 3a5b29bc91de49cb0f80
+Version: webpack 4.43.0
+Time: 1479ms
+Built at: 06/05/2020 3:22:48 PM
+  Asset     Size  Chunks             Chunk Names
+main.js  575 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+[./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {main} [built]
+    + 40 hidden modules
+i ｢wdm｣: Compiled successfully.
+i ｢wdm｣: Compiling...
+i ｢wdm｣: Hash: 3a5b29bc91de49cb0f80
+Version: webpack 4.43.0
+Time: 1291ms
+Built at: 06/05/2020 3:22:50 PM
+ 1 asset
+Entrypoint main = main.js
+[./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss] 185 KiB {main} [built]
+    + 41 hidden modules
+i ｢wdm｣: Compiled successfully.
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save-dev html-loader
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ html-loader@1.1.0
+added 8 packages from 7 contributors and audited 671 packages in 9.347s
+
+29 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+Hash: dfa6a115388d21e0e75a
+Version: webpack 4.43.0
+Time: 4226ms
+Built at: 06/05/2020 3:35:42 PM
+ 1 asset
+Entrypoint main = main.0d10b1e7e28a29b4816f.js
+[0] ./src/main.scss 559 bytes {0} [built]
+[2] ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss 143 KiB {0} [built]
+[4] ./src/index.js + 5 modules 2.39 KiB {0} [built]
+    | ./src/index.js 313 bytes [built]
+    | ./src/app/app.js 623 bytes [built]
+    | ./src/app/alert.service.js 693 bytes [built]
+    | ./src/app/component.service.js 586 bytes [built]
+    | ./src/app/utils/inputs-are-valid.js 127 bytes [built]
+    | ./src/app/utils/parse-inputs.js 97 bytes [built]
+    + 2 hidden modules
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [0] ./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html 1.26 KiB {0} [built]
+    [2] ./src/assets/webpack.svg 2.54 KiB {0} [built] [failed] [1 error]
+        + 1 hidden module
+
+    ERROR in ./src/assets/webpack.svg 1:0
+    Module parse failed: Unexpected token (1:0)
+    You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+    > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3046.7 875.7"><path fill="#FFF" d="M387 0l387 218.9v437.9L387 875.7 0 656.8V218.9L387 0z"/><path fill="#8ED6FB" d="M704.9 641.7L399.8 814.3V679.9l190.1-104.6 115 66.4zm20.9-18.9V261.9l-111.6 64.5v232l111.6 64.4zM67.9 641.7L373 814.3V679.9L182.8 575.3 67.9 641.7zM47 622.8V261.9l111.6 64.5v232L47 622.8zm13.1-384.3L373 61.5v129.9L172.5 301.7l-1.6.9-110.8-64.1zm652.6 0l-312.9-177v129.9l200.5 110.2 1.6.9 110.8-64z"/><path fill="#1C78C0" d="M373 649.3L185.4 546.1V341.8L373 450.1v199.2zm26.8 0l187.6-103.1V341.8L399.8 450.1v199.2zM198.1 318.2l188.3-103.5 188.3 103.5-188.3 108.7-188.3-108.7z"/><path fill="#F5FAFA" d="M1164.3 576.3h82.5l84.1-280.2h-80.4l-49.8 198.8-53.1-198.8H1078l-53.6 198.8-49.3-198.8h-80.4l83.6 280.2h82.5l52-179.5 51.5 179.5zM1335.2 437c0 84.1 57.3 146.3 147.4 146.3 69.7 0 107.2-41.8 117.9-61.6l-48.8-37c-8 11.8-30 34.3-68.1 34.3-41.3 0-71.3-26.8-72.9-64.3H1608c.5-5.4.5-10.7.5-16.1 0-91.6-49.3-149.5-136.1-149.5-79.9 0-137.2 63.2-137.2 147.9zm77.7-30.6c3.2-32.1 25.7-56.8 60.6-56.8 33.8 0 58.4 22.5 60 56.8h-120.6zm223.5 169.9h69.7v-28.9c7.5 9.1 35.4 35.9 83.1 35.9 80.4 0 137.2-60.5 137.2-146.8 0-86.8-52.5-147.3-132.9-147.3-48.2 0-76.1 26.8-83.1 36.4V188.9h-73.9v387.4h-.1zm71.8-139.3c0-52.5 31.1-82.5 71.8-82.5 42.9 0 71.8 33.8 71.8 82.5 0 49.8-30 80.9-71.8 80.9-45 0-71.8-36.5-71.8-80.9zm247 239.5h73.9V547.3c7 9.1 34.8 35.9 83.1 35.9 80.4 0 132.9-60.5 132.9-147.3 0-85.7-56.8-146.8-137.2-146.8-47.7 0-75.6 26.8-83.1 36.4V296h-69.7v380.5h.1zm71.8-241.1c0-44.5 26.8-80.9 71.8-80.9 41.8 0 71.8 31.1 71.8 80.9 0 48.8-28.9 82.5-71.8 82.5-40.7 0-71.8-30-71.8-82.5zm231.5 54.1c0 58.9 48.2 93.8 105 93.8 32.2 0 53.6-9.6 68.1-25.2l4.8 18.2h65.4V398.9c0-62.7-26.8-109.8-116.8-109.8-42.9 0-85.2 16.1-110.4 33.2l27.9 50.4a165.2 165.2 0 0 1 74.5-19.8c32.7 0 50.9 16.6 50.9 41.3v18.2c-10.2-7-32.2-15.5-60.6-15.5-65.4-.1-108.8 37.4-108.8 92.6zm73.9-2.2c0-23 19.8-39.1 48.2-39.1s48.8 14.5 48.8 39.1c0 23.6-20.4 38.6-48.2 38.6s-48.8-15.5-48.8-38.6zm348.9 30.6c-46.6 0-79.8-33.8-79.8-81.4 0-45 29.5-82 77.2-82a95.2 95.2 0 0 1 65.4 26.8l20.9-62.2a142.6 142.6 0 0 0-88.4-30c-85.2 0-149 62.7-149 147.9s62.2 146.3 149.5 146.3a141 141 0 0 0 87.3-30l-19.8-60.5c-12.4 10.1-34.9 25.1-63.3 25.1zm110.9 58.4h73.9V431.6l93.8 144.7h86.8L2940.6 423l98.6-127h-83.1l-90 117.9v-225h-73.9v387.4z"/></svg>
+     @ ./src/template.html (./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html) 3:33-64
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! webpacks@1.0.0 build: `webpack --config webpack.prod.js`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T10_05_42_569Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save-dev file-loader
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ file-loader@6.0.0
+added 3 packages from 5 contributors and audited 674 packages in 8.409s
+
+30 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.module.rules[2].use has an unknown property 'option'. These properties are valid:
+   object { ident?, loader?, options?, query? }
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! webpacks@1.0.0 build: `webpack --config webpack.prod.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T10_11_53_441Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+Hash: fef2f17317f80b84e4ab
+Version: webpack 4.43.0
+Time: 3787ms
+Built at: 06/05/2020 3:43:07 PM
+                                            Asset       Size  Chunks                         Chunk Names
+imgs/webpack.523e1b932381f19b26060571ccfc7a31.svg   2.29 KiB          [emitted]      
+                                       index.html  975 bytes          [emitted]      
+                     main.0d10b1e7e28a29b4816f.js    149 KiB       0  [emitted] [immutable]  main
+Entrypoint main = main.0d10b1e7e28a29b4816f.js
+[0] ./src/main.scss 559 bytes {0} [built]
+[2] ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss 143 KiB {0} [built]
+[4] ./src/index.js + 5 modules 2.39 KiB {0} [built]
+    | ./src/index.js 313 bytes [built]
+    | ./src/app/app.js 623 bytes [built]
+    | ./src/app/alert.service.js 693 bytes [built]
+    | ./src/app/component.service.js 586 bytes [built]
+    | ./src/app/utils/inputs-are-valid.js 127 bytes [built]
+    | ./src/app/utils/parse-inputs.js 97 bytes [built]
+    + 2 hidden modules
+Child HtmlWebpackCompiler:
+                                                Asset      Size  Chunks             Chunk Names
+    imgs/webpack.523e1b932381f19b26060571ccfc7a31.svg  2.29 KiB          [emitted]
+     + 1 hidden asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [0] ./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html 1.26 KiB {0} [built]
+    [2] ./src/assets/webpack.svg 93 bytes {0} [built]
+        + 1 hidden module
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm start
+
+> webpacks@1.0.0 start C:\Users\Kiran\Desktop\webpacks
+> webpack-dev-server  --config webpack.dev.js --open
+
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from C:\Users\Kiran\Desktop\webpacks
+i ｢wdm｣: wait until bundle finished: /
+i ｢wdm｣: Hash: 662840482a0c201f2a74
+Version: webpack 4.43.0
+Time: 5711ms
+Built at: 06/05/2020 3:44:49 PM
+                                            Asset      Size  Chunks             Chunk Names
+imgs/webpack.523e1b932381f19b26060571ccfc7a31.svg  2.29 KiB          [emitted]
+                                       index.html  1.23 KiB          [emitted]
+                                          main.js   575 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[0] multi (webpack)-dev-server/client?http://localhost:8080 ./src/index.js 40 bytes {main} [built]
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:8080] (webpack)-dev-server/client?http://localhost:8080 4.29 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {main} [built]
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {main} [built]
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] (webpack)-dev-server/node_modules/strip-ansi/index.js 161 bytes {main} [built]
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+[./src/app/alert.service.js] 693 bytes {main} [built]
+[./src/app/app.js] 623 bytes {main} [built]
+[./src/app/component.service.js] 586 bytes {main} [built]
+[./src/index.js] 313 bytes {main} [built]
+[./src/main.scss] 559 bytes {main} [built]
+    + 27 hidden modules
+Child HtmlWebpackCompiler:
+                                                Asset      Size  Chunks             Chunk Names
+    imgs/webpack.523e1b932381f19b26060571ccfc7a31.svg  2.29 KiB          [emitted]
+     + 1 hidden asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [./node_modules/html-loader/dist/runtime/getUrl.js] 548 bytes {HtmlWebpackPlugin_0} [built]
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html] 1.67 KiB {HtmlWebpackPlugin_0} [built]
+    [./src/assets/webpack.svg] 93 bytes {HtmlWebpackPlugin_0} [built]
+i ｢wdm｣: Compiled successfully.
+i ｢wdm｣: Compiling...
+i ｢wdm｣: Hash: 3a5b29bc91de49cb0f80
+Version: webpack 4.43.0
+Time: 15ms
+Built at: 06/05/2020 3:45:36 PM
+ 1 asset
+Entrypoint main = main.js
+[./src/index.js] 313 bytes {main} [built]
+    + 41 hidden modules
+i ｢wdm｣: Compiled successfully.
+i ｢wdm｣: Compiling...
+i ｢wdm｣: Hash: cf9ed785467a1df7dd99
+Version: webpack 4.43.0
+Time: 15ms
+Built at: 06/05/2020 3:45:38 PM
+  Asset     Size  Chunks             Chunk Names
+main.js  575 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/index.js] 311 bytes {main} [built]
+    + 41 hidden modules
+i ｢wdm｣: Compiled successfully.
+i ｢wdm｣: Compiling...
+i ｢wdm｣: Hash: 3a5b29bc91de49cb0f80
+Version: webpack 4.43.0
+Time: 24ms
+Built at: 06/05/2020 3:45:39 PM
+  Asset     Size  Chunks             Chunk Names
+main.js  575 KiB    main  [emitted]  main
+Entrypoint main = main.js
+[./src/index.js] 313 bytes {main} [built]
+    + 41 hidden modules
+i ｢wdm｣: Compiled successfully.
+i ｢wdm｣: Compiling...
+i ｢wdm｣: Hash: 3a5b29bc91de49cb0f80
+Version: webpack 4.43.0
+Time: 20ms
+Built at: 06/05/2020 3:45:40 PM
+ 1 asset
+Entrypoint main = main.js
+[./src/index.js] 313 bytes {main} [built]
+    + 41 hidden modules
+i ｢wdm｣: Compiled successfully.
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+Hash: fef2f17317f80b84e4ab
+Version: webpack 4.43.0
+Time: 4310ms
+Built at: 06/05/2020 3:46:02 PM
+                                            Asset       Size  Chunks                         Chunk Names
+imgs/webpack.523e1b932381f19b26060571ccfc7a31.svg   2.29 KiB          [emitted]      
+                                       index.html  975 bytes          [emitted]      
+                     main.0d10b1e7e28a29b4816f.js    149 KiB       0  [emitted] [immutable]  main
+Entrypoint main = main.0d10b1e7e28a29b4816f.js
+[0] ./src/main.scss 559 bytes {0} [built]
+[2] ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss 143 KiB {0} [built]
+[4] ./src/index.js + 5 modules 2.39 KiB {0} [built]
+    | ./src/index.js 313 bytes [built]
+    | ./src/app/app.js 623 bytes [built]
+    | ./src/app/alert.service.js 693 bytes [built]
+    | ./src/app/component.service.js 586 bytes [built]
+    | ./src/app/utils/inputs-are-valid.js 127 bytes [built]
+    | ./src/app/utils/parse-inputs.js 97 bytes [built]
+    + 2 hidden modules
+Child HtmlWebpackCompiler:
+                                                Asset      Size  Chunks             Chunk Names
+    imgs/webpack.523e1b932381f19b26060571ccfc7a31.svg  2.29 KiB          [emitted]
+     + 1 hidden asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [0] ./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html 1.26 KiB {0} [built]
+    [2] ./src/assets/webpack.svg 93 bytes {0} [built]
+        + 1 hidden module
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+Hash: 4519b9510852a31c84d2
+Version: webpack 4.43.0
+Time: 4170ms
+Built at: 06/05/2020 3:46:40 PM
+                                            Asset       Size  Chunks                         Chunk Names
+imgs/webpack.523e1b932381f19b26060571ccfc7a31.svg   2.29 KiB          [emitted]      
+                                       index.html  975 bytes          [emitted]      
+                     main.40d3032d5f539681bdc9.js    149 KiB       0  [emitted] [immutable]  main
+Entrypoint main = main.40d3032d5f539681bdc9.js
+[0] ./src/main.scss 559 bytes {0} [built]
+[2] ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss 143 KiB {0} [built]
+[4] ./src/index.js + 5 modules 2.39 KiB {0} [built]
+    | ./src/index.js 313 bytes [built]
+    | ./src/app/app.js 623 bytes [built]
+    | ./src/app/alert.service.js 693 bytes [built]
+    | ./src/app/component.service.js 586 bytes [built]
+    | ./src/app/utils/inputs-are-valid.js 127 bytes [built]
+    | ./src/app/utils/parse-inputs.js 97 bytes [built]
+    + 2 hidden modules
+Child HtmlWebpackCompiler:
+                                                Asset      Size  Chunks             Chunk Names
+    imgs/webpack.523e1b932381f19b26060571ccfc7a31.svg  2.29 KiB          [emitted]
+     + 1 hidden asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [0] ./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html 1.26 KiB {0} [built]
+    [2] ./src/assets/webpack.svg 93 bytes {0} [built]
+        + 1 hidden module
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm install --save clean-webpack-plugin
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ clean-webpack-plugin@3.0.0
+added 1 package from 1 contributor and audited 675 packages in 7.131s
+
+30 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\cli.js:93
+                                throw err;
+                                ^
+
+TypeError: CleanWebpackPlugin is not a constructor
+    at Object.<anonymous> (C:\Users\Kiran\Desktop\webpacks\webpack.prod.js:12:14)
+    at Module._compile (C:\Users\Kiran\Desktop\webpacks\node_modules\v8-compile-cache\v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (C:\Users\Kiran\Desktop\webpacks\node_modules\v8-compile-cache\v8-compile-cache.js:161:20)
+    at WEBPACK_OPTIONS (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:114:13)
+    at requireConfig (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:116:6)
+    at C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:121:15)
+    at C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\cli.js:71:45
+    at Object.parse (C:\Users\Kiran\Desktop\webpacks\node_modules\yargs\yargs.js:567:18)
+    at C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\cli.js:49:8
+    at Object.<anonymous> (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\cli.js:366:3)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack\bin\webpack.js:156:2)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! webpacks@1.0.0 build: `webpack --config webpack.prod.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T10_20_00_682Z-debug.log
+
+Dj-Kiran@DESKTOP-B6OQ4MH MINGW64 ~/Desktop/webpacks
+$ npm run build
+
+> webpacks@1.0.0 build C:\Users\Kiran\Desktop\webpacks
+> webpack --config webpack.prod.js
+
+C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\cli.js:93
+                                throw err;
+                                ^
+
+TypeError: CleanWebpackPlugin is not a constructor
+    at Object.<anonymous> (C:\Users\Kiran\Desktop\webpacks\webpack.prod.js:12:15)
+    at Module._compile (C:\Users\Kiran\Desktop\webpacks\node_modules\v8-compile-cache\v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (C:\Users\Kiran\Desktop\webpacks\node_modules\v8-compile-cache\v8-compile-cache.js:161:20)
+    at WEBPACK_OPTIONS (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:114:13)
+    at requireConfig (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:116:6)
+    at C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\utils\convert-argv.js:121:15)
+    at C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\cli.js:71:45
+    at Object.parse (C:\Users\Kiran\Desktop\webpacks\node_modules\yargs\yargs.js:567:18)
+    at C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\cli.js:49:8
+    at Object.<anonymous> (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack-cli\bin\cli.js:366:3)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\Kiran\Desktop\webpacks\node_modules\webpack\bin\webpack.js:156:2)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! webpacks@1.0.0 build: `webpack --config webpack.prod.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the webpacks@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Kiran\AppData\Roaming\npm-cache\_logs\2020-06-05T10_20_47_322Z-debug.log
+
