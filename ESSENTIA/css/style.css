@@ -1,0 +1,503 @@
+@font-face {
+    font-family: 'Cera Pro Regular';
+    src: url('CeraPro-Regular.eot');
+    src: url('CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./font/CeraPro-Regular.woff') format('woff'),
+    url('./font/CeraPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'Cera Pro Bold';
+        src: url('CeraPro-Bold.eot');
+        src: url('CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./font/CeraPro-Bold.woff') format('woff'),
+        url('./font/CeraPro-Bold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+/* COMMON BODY AND CONTAINER SECTION */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* COMMON TOP GREY SECTION **********/
+  
+  .grey-section{
+    background-color: #efefef;
+  }
+  
+  .top-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  
+  .top-info > div {
+    margin-top: 10px;
+  }
+  .left-info p{
+      color: #585858;
+  }
+  .right-info{
+      display: flex;
+  }
+  .right-info img{
+      margin-top: -3px;
+  }
+  .right-info p{
+    color: #585858;
+}
+  .mail{
+      margin-right: 24px;
+      text-decoration: none;
+  }
+  .mail a{
+    text-decoration: none;
+}
+.contact{
+    text-decoration: none;
+}
+.contact a{
+  text-decoration: none;
+}
+
+/* COMMON LOGO AND NAV SECTION ***********/
+.logo-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  /* .nav-link{
+    border-right: 2px solid black;
+    height: 5px;
+  } */
+  .nav-link{
+    position: relative;
+    margin-top: -5px;
+  }
+  .nav-link-box{
+    background-color: #34B5E8;
+    padding: 10px 30px!important;
+    border-radius: 50px;
+    color: white!important; 
+     margin-top: -2px!important;
+     transition: 0.4s linear;
+  }
+
+  .nav-link-box:hover{
+    background-color: black;
+}
+  .topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Bebas Neue', cursive;
+  transition: 0.4s linear;
+  }
+  
+  .topnav a:hover {
+   color: #34B5E8;
+    text-decoration: none;
+  }
+  
+  .topnav .icon {
+  display: none;
+  }
+  
+
+/* SLIDER SECTION */
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.slides {
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 2s ease;   
+}
+
+.slide {
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.slide:nth-child(1) {
+    background-image: url(./../img/ban.png);
+}
+
+.slide:nth-child(2) {
+    background-image: url(./../img/ban.png);
+}
+
+.slide:nth-child(3) {
+    background-image: url(./../img/ban.png);
+}
+
+.slide-data {
+    position: absolute;
+    top: 30%; 
+    width: 100%;
+    color: #fff;
+    padding: 0 10%;
+    margin-top: 45px;
+}
+
+.slide-data h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #283B92;
+    margin-bottom: -10px;
+}
+
+.slide-data p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.banner-btn{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #2B89AE;
+    padding: 10px 30px!important;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white!important; 
+    margin-top: -2px!important;
+    transition: 0.4s linear;
+  }
+  .banner-btn:hover{
+    background-color: black;
+    text-decoration: none;
+}
+
+.dots {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.dots span{
+    transition: 0.4s linear;
+}
+
+.dots span:hover {
+    background-color: #283B92 !important;  
+}
+
+.dot-active {
+    background-color: #283B92 !important;
+}
+
+/* ABOUT PRODUCTS */
+.about-product-section{
+    margin-top: 100px;
+    /* background-color: #f5f5f5; */
+}
+
+/* .product-card:hover{
+        background-color:red;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.10);
+
+}   */
+.product-section-heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#283B92;
+}
+
+.product-section-para{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+.class-block{
+    padding: 20px;
+}
+.card-text1{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card-text2{
+    font-size: 14px;
+    margin-top: -10px;
+}
+.card-text3{
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color:#959595;
+}
+.card-text4{
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+.pro-link{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s linear;
+}
+.pro-link:hover{
+    text-decoration: none;
+}
+
+
+/* ESSENTIA SOLUTION */
+
+.about-essentia-section{
+    margin-top: 100px;
+}
+.essentia-info{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -10px;
+}
+
+.essentia-section-heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#283B92;
+}
+
+.essentia-section-para{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+
+.essentia-blog-content h1{
+    font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.essentia-blog-content p{
+    font-size: 16px;
+    font-family: 'Cera Pro Regular';
+    text-align: justify;
+}
+
+/* VIDEO SECTION */
+.video-section {
+padding: 55px 0 0 30px;;
+background: url(./../img/video.png) center center no-repeat;
+background-size: cover;
+color: #fff;
+width: 100%;
+height: 524px;
+margin-top: 50px;
+}
+.video-content{
+    margin-top: 350px;
+}
+.video-heading1 {
+font-size: 30px;
+font-family: 'Bebas Neue', cursive;
+color:#34B5E8;
+}
+
+.video-heading2 {
+font-size: 52px;
+font-family: 'Bebas Neue', cursive;
+margin-top: -20px;
+}
+
+.button-play{
+margin-top: -25%;
+margin-left: 45%;
+}
+
+
+/* OUR VALUES */
+
+.our-values-essentia-section{
+    margin-top: 100px;
+}
+
+.our-values-essentia-section-heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#283B92;
+}
+
+.our-values-essentia-section-para{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+
+   .our-values-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+    
+   .our-values-icons figure {
+    position: relative;
+    height: 230px;
+    width: 210px;
+    margin: 10px;
+    padding: 50px 10px 25px 10px;
+    align-items: flex-end;
+    justify-content: center;
+   }
+   
+   .our-values-icons figcaption {
+    color: black;
+    font-family: 'Cera Pro Bold';
+    font-size: 15px;
+    margin-top: 30px;
+   }
+.our-value-para{
+    font-size:12px;
+    font-family:'Cera Pro Regular';
+    text-align: justify;
+}
+
+/* IMAGE SLIDER  */
+
+
+
+
+
+
+
+/* OUR CLIENTS */
+
+.our-clients-essentia-section{
+    margin-top: 150px;
+}
+
+.our-clients-essentia-section-heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#283B92;
+}
+
+.our-clients-essentia-section-para{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+.our-clients-icons1 , .our-clients-icons2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   .our-clients-icons2{
+       margin-top: 20px;
+   }
+   .our-clients-icons figure {
+    position: relative;
+    height: 80px;
+    width: 171px;
+    margin: 10px;
+    padding: 0 0 25px 0;
+    align-items: flex-end;
+    justify-content: center;
+   }
+
+   .all-logo{
+       margin-top: 20px;
+   }
+
+   /* CONTACT US */
+
+.our-contact-essentia-section{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.our-contact-essentia-section-heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#283B92;
+}
+
+.our-contact-essentia-section-para{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icons{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 140px;
+    margin-top: 70px;
+}
+.cont-info p{
+    font-family: 'Cera Pro Regular';
+    font-size: 18px;
+}
+.cont-map{
+    margin-top: -90px;;
+}
+
+
+/* FOOTER */
+.footer-text {
+    background-color:#575757;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    font-family: 'Cera Pro Regular';
+  }
+  .footer-text p{
+    margin-top: 18px;
+  }
