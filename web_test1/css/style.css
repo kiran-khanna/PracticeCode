@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.footer{
+    background-color: black;
+    color:white;
+    padding:8px;
+}
