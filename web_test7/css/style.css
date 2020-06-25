@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+a {
+  text-decoration: none !important;
+}
+/* Text Centering */
+.horizontal-center {
+  text-align: center;
+}
+
+.vertical-center {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Page title */
+
+#page-title {
+  position: relative;
+  width: 100%;
+  color: white;
+  background-color: #1f4a6f;
+  font-family: "ubuntu";
+  overflow: hidden;
+}
+
+#page-title .container {
+  min-height: 350px;
+  display: table;
+}
+
+/* Article */
+article {
+  font-family: "roboto";
+  font-size: 1.1em;
+}
+article h2,
+article h3 {
+  font-family: "ubuntu";
+}
+.author {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.author-image {
+  margin-right: 10px;
+  border-radius: 100%;
+}
+.author-name {
+  font-size: 1.3em;
+}
+
+/* Footer */
+footer {
+  background-color: #1f4a6f;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+  margin-top: 80px;
+  color: white; 
+  font-family: "roboto";
+}
+footer h2,
+footer h3 {
+  font-family: "ubuntu";
+}
+footer a {
+  color: #70a7d7;
+}
+footer a:hover {
+  color: #337ab7;
+}
+.info {
+  padding: 30px;
+}
+
+/* Image List */
+.image-list {
+  list-style: none;
+  padding-left: 0;
+}
+.image-list li {
+  padding-bottom: 5px;
+  display: table-row;
+}
+.image-list img {
+  width: 40px;
+  height: 40px;
+}
+.image-list .vertical-center {
+  padding-bottom: 6px;
+}
