@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 414px;
+}
+
+/* BUTTON */
+.buttons {
+  background-color: #1919da;
+  padding: 10px 55px;
+  border-radius: 50px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* LOGO SECTION */
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 236px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+}
+.bs-logo {
+  display: flex;
+  align-items: center;
+}
+
+/* CHECK BOX */
+.br-checkbox {
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .br-checkbox label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  .br-checkbox:active {
+    background-color: #1919da;
+    color: white;
+  }
+  
+/* MESSAGE-SECTION */
+.message-section {
+  padding-bottom: 30px;
+}
+.heading {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 10px;
+  color: #1919da;
+}
+.message{
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+.message-area {
+  width: 100%;
+  border: 2px solid #ccc;
+  background-image: url(../img/bhishma.png);
+  background-repeat: no-repeat;
+}
+
+/* MULTI SELECTION */
+.br-multiMsg {
+  border: 1px solid grey;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.br-multiMsg label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.selected {
+  background-color: #1919da;
+  color: white;
+}

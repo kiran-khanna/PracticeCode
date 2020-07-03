@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "questions": "Whats is your favorite place in chennai?",
+        "type": "radio",
+        "options": {
+            "data1": "Marina Beach",
+            "data2": "Temples",
+            "data3": "Zoo",
+            "data4": "Children Park"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Leanne Graham",
+        "type": "checkbox",
+        "questions": "Which country do support?",
+        "options": {
+            "data1": "India",
+            "data2": "China",
+            "data3": "America",
+            "data4": "Germany"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Leanne Graham",
+        "type": "textbox",
+        "questions": "Whats is your favorite place in chennai?",
+        "options": {
+            "data1": "Children Park",
+            "data2": "Zoo",
+            "data3": "Marina Beach",
+            "data4": "Temples"
+        }
+    },
+    {
+        "id": 4,
+        "username": "Karianne",
+        "type": "radio",
+        "questions": "Whats is your favorite place in chennai?",
+        "options": {
+            "data1": "Zoo",
+            "data2": "Children Park",
+            "data3": "Temples",
+            "data4": "Marina Beach"
+        }
+    },
+    {
+        "id": 5,
+        "questions": "Whats is your favorite place in chennai?",
+        "type": "textbox",
+        "username": "Kamren",
+        "options": {
+            "data1": "Temples",
+            "data2": "Marina Beach",
+            "data3": "Children Park",
+            "data4": "Zoo"
+        }
+    }
+]
