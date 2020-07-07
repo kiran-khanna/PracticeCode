@@ -1,0 +1,49 @@
+$liteGrey-color: #ececec;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-color: $liteGrey-color;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  line-height: 50px;
+}
+h3 {
+  line-height: 30px;
+  padding: 5px;
+}
+h4 {
+  padding-top: 5px;
+  line-height: 30px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+p {
+  font-weight: 300;
+  line-height: 30px;
+}
+
+section {
+  padding-top: 40px;
+  margin-top: 50px;
+}

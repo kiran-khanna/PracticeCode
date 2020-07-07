@@ -1,0 +1,148 @@
+@import "./common";
+
+$orange-color: #f97300;
+$white-color: white;
+$black-color: black;
+$liteGrey-color: #ccc;
+$grey-color: #888;
+$lite-Blue: #10828c;
+
+/* navigation */
+.navbar {
+  background: $orange-color;
+}
+
+.nav-link,
+.navbar-brand {
+  color: $white-color;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 32px !important;
+  &:hover {
+    background: $white-color;
+    color: $orange-color;
+  }
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: $white-color !important;
+}
+
+/* about */
+.about {
+ 
+  padding: 32px;
+  position: relative;
+  h1 {
+    color: $orange-color;
+    margin: 64px;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+  .desc {
+    padding: 64px;
+    border-left: 4px solid $lite-Blue;
+    h3 {
+      color: $lite-Blue;
+    }
+    p {
+      line-height: 2;
+      color: $grey-color;
+    }
+  }
+}
+
+/* portfolio */
+.portfolio {
+  position: relative;
+  h1 {
+    color: $orange-color;
+    margin: 2em;
+  }
+  img {
+    height: 15rem;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/* cards */
+
+.blog {
+  position: relative;
+  h1 {
+    color: $orange-color;
+    margin: 2em;
+  }
+  .card {
+    box-shadow: 0 0 20px $liteGrey-color;
+  }
+  .card img {
+    width: 100%;
+    height: 12em;
+  }
+  .card-title {
+    color: $orange-color;
+  }
+  .card-body {
+    padding: 1em;
+  }
+}
+
+/* team */
+
+.team {
+  margin: 4em 0;
+  position: relative;
+  h1 {
+    color: $orange-color;
+    margin: 2em;
+  }
+  .item {
+    position: relative;
+  }
+  .des {
+    background: $orange-color;
+    color: $white-color;
+    text-align: center;
+  }
+}
+
+/* form */
+
+.contact-form {
+  margin: 6em 0;
+  position: relative;
+  h1 {
+    padding: 2em 1px;
+    color: $orange-color;
+  }
+  .right {
+    max-width: 600px;
+    .btn-secondary {
+      background: $orange-color;
+      color: $white-color;
+      border: 0;
+    }
+    .form-control::placeholder {
+      color: $grey-color;
+      font-size: 16px;
+    }
+  }
+}
+
+/* footer */
+.footer {
+  background-color: $black-color;
+  color: $white-color;
+  padding: 8px;
+}
