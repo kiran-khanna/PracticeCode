@@ -1,0 +1,51 @@
+#about .section-title {
+  text-align: center;
+}
+
+#pricing {
+  .section-title {
+    text-align: center;
+  }
+  .col-md-4 {
+    margin: 0;
+    padding: 0;
+  }
+  .col-md-4:last-child .pricing-thumb {
+    border-right: 0;
+  }
+}
+
+.pricing-thumb {
+  background: $white-color;
+  border-right: 2px solid $lite-white;
+  padding: 20px 40px;
+}
+
+.pricing-title {
+  padding-bottom: 5px;
+}
+
+.pricing-info {
+  border-top: 2px solid $lite-white;
+  border-bottom: 2px solid $lite-white;
+  padding: 20px 0;
+  p {
+    font-size: 16px;
+  }
+}
+
+.pricing-bottom {
+  padding: 20px 0;
+  position: relative;
+  span {
+    font-size: 20px;
+  }
+}
+
+.pricing-btn {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  display: inline-block;
+  background-color:$green-color ;
+}

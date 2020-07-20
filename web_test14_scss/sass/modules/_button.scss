@@ -1,0 +1,16 @@
+
+.section-btn {
+  background: $green-color;
+  border: 0;
+  border-radius: 50px;
+  color: $white-color;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 12px 30px;
+  transition: 0.5s 0.2s;
+  &:hover,
+  &:focus {
+    background: $a-color;
+    color: $white-color;
+  }
+}

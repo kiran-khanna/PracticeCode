@@ -1,0 +1,40 @@
+#feature {
+  background: $white-color;
+  .nav-tabs {
+    border-bottom: 0;
+  }
+  .nav > li > a {
+    padding: 8px 0;
+  }
+  .nav-tabs > li > a {
+    color: $lite-grey;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    margin-right: 35px;
+  }
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:focus,
+  .nav-tabs > li.active > a:hover {
+    background: transparent;
+    color: $a-color;
+    border-bottom: 3px solid $green-color;
+  }
+  .nav > li > a:focus,
+  .nav > li > a:hover {
+    background: transparent;
+    border-bottom: 3px solid $green-color;
+    color: $a-color;
+  }
+  .tab-content {
+    margin-top: 50px;
+  }
+}
+
+.tab-pane-item {
+  margin: 20px 0;
+  h2 {
+    margin: 0 0 5px 0;
+  }
+}

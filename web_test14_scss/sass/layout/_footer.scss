@@ -1,0 +1,34 @@
+footer {
+  padding-bottom: 80px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  li {
+    display: inline-block;
+    list-style: none;
+    margin-top: -16px;
+  }
+  li a {
+    border-radius: 50px;
+    color: $a-color;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    margin: 5px 5px 5px 0;
+  }
+  li a:hover {
+    background: $overlay-color;
+    color: $white-color;
+  }
+}

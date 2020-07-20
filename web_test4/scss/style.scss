@@ -1,0 +1,161 @@
+
+@import 'common';
+
+$black-color: black;
+$white-color:  #f4f4f4;
+$blue-color:#00657b ;
+$lite-blue:#0085A1;
+$brown-color: #212529;
+$grey-color:#868e96;
+$orange-color:#f97300;
+
+
+  /* NAVIGATION */
+  
+  .navbar{ 
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background:$black-color;
+  }
+  
+  .nav-link , .navbar-brand{ 
+    color:$white-color; 
+    cursor: pointer;
+  }
+  
+  .nav-link{ 
+    margin-right: 32px !important;
+  }
+  
+  .nav-link:hover{ 
+    background: $white-color; 
+    color: $orange-color; 
+  }
+  
+  .navbar-collapse{ 
+    justify-content: flex-end;
+  }
+  
+  .navbar-toggler{ 
+     background:$white-color !important;
+    }
+  
+  
+  /* banner */
+  header.masthead {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color:  $grey-color;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+  }
+  
+  header.masthead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $brown-color;
+    opacity: 0.5;
+  }
+  
+  header.masthead .site-heading {
+    padding: 200px 0 150px;
+    color: $white-color;
+  }
+  
+  header.masthead .site-heading {
+    text-align: center;
+  }
+  
+  header.masthead .site-heading h1 {
+    font-size: 50px;
+    margin-top: 0;
+  }
+  
+  header.masthead .site-heading .subheading {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin: 10px 0 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  header.masthead  h1 {
+    font-size: 35px;
+  }
+  
+  header.masthead  .subheading {
+    line-height: 1.1;
+    display: block;
+  }
+  
+  header.masthead  .subheading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 30px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  @media only screen and (min-width: 768px) {
+    header.masthead .site-heading {
+      padding: 200px 0;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    header.masthead .site-heading h1 {
+      font-size: 80px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    header.masthead .subheading {
+      font-size: 30px;
+    }
+  }
+  
+  
+  /* footer */
+  footer {
+    padding: 50px 0 65px;
+  }
+  
+  footer .list-inline {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer .copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .btn {
+    font-size: 14px;
+    font-weight: 800;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .btn-primary {
+    background-color: $lite-blue;
+    border-color: $lite-blue;
+  }
+  
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: $white-color;
+    background-color: $blue-color !important;
+    border-color: $blue-color !important;
+  }
+  
+  .btn-lg {
+    font-size: 16px;
+    padding: 25px 35px;
+  }
+  

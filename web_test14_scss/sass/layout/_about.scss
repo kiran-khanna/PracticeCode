@@ -1,0 +1,22 @@
+#about .col-md-4 {
+  margin: 0;
+  padding: 0;
+}
+
+.team-info {
+  // position: relative;
+  padding: 40px;
+  h2 {
+    margin: 0;
+  }
+
+  small {
+    display: block;
+    font-size: 18px;
+    margin: 5px 0 10px 0;
+  }
+}
+
+.team-thumb img {
+  width: 100%;
+}

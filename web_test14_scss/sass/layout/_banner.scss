@@ -1,0 +1,21 @@
+#home {
+  background: url("../../assets/img/home-bg.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+  h1 {
+    color: $white-color;
+  }
+}
+
+.home-info h3 {
+  color: $lite-white;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
