@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BarbaJS</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- define the wrapper and the container -->
+    <div data-barba="wrapper">
+        <div class="topnav">
+            <a  href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="news.html">News</a>
+        </div>
+        <div data-barba="container" data-barba-namespace="contactpage">
+            <div class="row">
+                <div class="side">
+                    <h2>Contact</h2>
+                    <h5>Photo of me:</h5>
+                    <div class="fakeimg">Image</div>
+                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                    <h3>More Text</h3>
+                    <p>Lorem ipsum dolor sit ame.</p>
+                    <div class="fakeimg" style="height:60px;">Image</div><br>
+                    <div class="fakeimg" style="height:60px;">Image</div><br>
+                    <div class="fakeimg" style="height:60px;">Image</div>
+                </div>
+                <div class="main">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Dec 7, 2020</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco.</p>
+                    <br>
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Sep 2, 2020</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+
+    <!-- load barba (UMD version) -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
