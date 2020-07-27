@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body data-barba="wrapper">
+
+    <ul class="transition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main data-barba="container" data-barba-namespace="services">
+            <div class="left">
+                <h1>SERVICES</h1>
+                <!-- <a href="index.html" class="cta">Take me to Home</a> -->
+                <p class="cta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sunt ab cum aliquam deserunt
+                    quo! Mollitia aspernatur, id deserunt sed optio minima accusamus architecto, modi, eaque nemo
+                    explicabo voluptatem sapiente.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sunt ab cum aliquam deserunt
+                    quo! Mollitia aspernatur, id deserunt sed optio minima accusamus architecto, modi, eaque nemo
+                    explicabo voluptatem sapiente.</p>
+            </div>
+            <div class="images">
+                <img src="./img/72.jpg" alt="ceo">
+                <img src="./img/72.jpg" alt="ceo">
+               </div>
+        </main>
+    </div>
+
+
+
+    <!-- unpkg -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/CSSRulePlugin.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
