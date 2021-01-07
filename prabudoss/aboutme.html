@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/style.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>ABOUT ME</title>
+</head>
+
+<body>
+    <div class="modal fade contact-form__modal" tabindex="-1" role="dialog" aria-labelledby="contact form"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="container-fluid">
+                    <div class="row align-items-stretch">
+                        <div class="col-lg-6 d-none d-lg-flex contact-form__left">
+                            <img style="margin-top:70px;" src="./img/cropimg-01.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 contact-form__right">
+                            <button data-dismiss="modal" aria-label="Close" class="contact-form__close"><img
+                                    src="./img/close.svg" alt=""></button>
+                            <div class="contact-form__content">
+                                <h2 class="section-title">Contact us</h2>
+                                <form action="./formAction.php" class="contact-form__form">
+                                    <div class="form-row">
+                                        <div class="col-xl-3">
+                                            <label for="name">Name</label>
+                                        </div>
+                                        <div class="col-xl-9">
+                                            <input type="text" id="name" name="name" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-xl-3">
+                                            <label for="email">Email ID</label>
+                                        </div>
+                                        <div class="col-xl-9">
+                                            <input type="email" id="email" name="email" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-xl-3">
+                                            <label for="phone">Phone Number</label>
+                                        </div>
+                                        <div class="col-xl-9">
+                                            <input type="text" id="phone" name="phone" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-xl-3">
+                                            <label for="phone">Message</label>
+                                        </div>
+                                        <div class="col-xl-9">
+                                            <textarea name="message" class="form-control" id="message"
+                                                required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary float-right">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TOP SECTION------------------- -->
+    <header>
+        <!-- <section class="grey-section">
+            <div class="container">
+                <div class="top-info">
+                    <div class="quotes">
+                        <p>STAY FIT ! STAY HEALTHY !! STAY HAPPY !!!</p>
+                    </div>
+                    <div class="email">
+                        <p><img src="./img/mail.png" alt="mail"> jeevaganayyanathan@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <div class="nav-sticky">
+            <div class="container">
+                <div class="navbar">
+                    <a href="/"><img src="./img/logo-01.svg" style="width:273px; height: 60px; margin-top:-10px"
+                            alt="logo"></a>
+                    <div class="navbar__right">
+
+                        <ul class="navbar__right--bottom">
+                            <li><a class="nav-link" href="index.html">HOME</a></li>
+                            <li><a class="nav-link active" href="./aboutme.html">ABOUT</a></li>
+                            <li><a class="nav-link" href="./endoscope.html">ELECTIONS</a></li>
+                            <li><a class="nav-link" href="./blogall.html">BLOG</a></li>
+                            <li><a class="nav-link" href="./gallery.html">GALLERY</a></li>
+                            <li><a class="nav-link" data-toggle="modal" data-target=".contact-form__modal">CONTACT</a>
+                            </li>
+                        </ul>
+                        <div class="side-close">
+                            <button class=" btn btn-clear hamburger" onclick="showNav()">☰</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SIDE MENU POP -->
+        <div class="sidebars">
+            <div class="sidenav-inner">
+                <a href="javascript:void(0)" class="sidenav-closebtn" onclick="closeNav()">&times;</a>
+                <ul class="side-popup">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a class="nav-active" href="./aboutme.html">ABOUT</a></li>
+                    <li><a href="./endoscope.html">ELECTIONS</a></li>
+                    <li><a href="./blogall.html">BLOG</a></li>
+                    <li><a href="./gallery.html">GALLERY</a></li>
+                    <li><a data-toggle="modal" data-target=".contact-form__modal">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <section class="logo-nav-section">
+            <div class="container">
+                <div class="logo-nav">
+                    <div class="logo">
+                        <a href="/"><img src="./img/logo-01.svg" style="width:273px; height: 60px; margin-top:-10px"
+                                alt="logo"></a>
+                    </div>
+                    <div class="nav">
+                        <div class="topnav" id="myTopnav">
+                            <a class="nav-link" href="index.html"
+                                style="color: black; font-family: 'cera_probold';">HOME</a>
+                            <a class="nav-link active" href="aboutme.html">ABOUT</a>
+                            <a class="nav-link" href="endoscope.html">ELECTIONS</a>
+                            <a class="nav-link" href="blogall.html">BLOG</a>
+                            <a class="nav-link" href="gallery.html">GALLERY</a>
+                            <a class="nav-link" data-toggle="modal" data-target=".contact-form__modal">CONTACT</a>
+                            <li class="nav-item">
+                                <div class="lang-drop">
+                                    <select id="language" class="lang-selector">
+                                        <option value="english" selected>ENG</option>
+                                        <option value="tamil">தமிழ்</option>
+                                    </select>
+                                </div>
+                            </li>
+                        </div>
+
+                    </div>
+                    <div class="side-close">
+                        <button class=" btn btn-clear hamburger" onclick="showNav()">☰</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="blog-ind-banner">
+            <div class="container">
+                <div class="blog-ind-img">
+                    <div class="blog-ind-content col-12">
+                        <img src="img/latestnews.png" alt="">
+                        <h1 class="blog-ind-heading1">Kalaignar fought for the right of CM's to hoist the National Flag in a State
+                        </h1>
+                        <p class="blog-ind-heading2"><span><img src="./img/calendar1.png"> 07 JAN 2021</span></p>
+                        <div class="circle-logo">
+                            <img class="center" style="width: 207px; height: 230px;" src="./img/dp-02.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- BLOG CONTENT---------------------- -->
+    <section class="blog_ind-section">
+        <div class="blog_ind-content">
+            <p class="blog_ind-para1"> <span>D</span>ravida Munnetra Kazhagam (DMK) (transl. Dravidian Progressive Federation) is a political party in India, particularly in the state of Tamil Nadu and union territory of Puducherry.It is currently the Opposition party in Tamil Nadu and is part of the Indian political front the United Progressive Alliance (UPA). DMK is a Dravidian party, adhering to the social democratic and social justice principles of C. N. Annadurai and Periyar E. V. Ramasamy.It was founded in 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam (known as Justice Party until 1944) headed by Periyar E.V.Ramasamy.
+            </p>
+
+            <p class="blog_ind-sub-para1">DMK was headed by Annadurai (as Secretary general) from 1949 until his death on 3 February 1969. He also served as Chief Minister of Tamil Nadu from 1967 to 1969. Under Annadurai, in 1967, DMK became the first party, other than the Indian National Congress, to win state-level elections with a clear majority on its own in any state in India. M. Karunanidhi followed Annadurai as the first President of DMK from 1969 until his own death on 7 August 2018. He also served as Chief Minister for five non-consecutive terms, in two of which he was dismissed by the Central government.
+            </p>
+
+            <h2 class="blog_ind-head1">Elections under Karunanidhi's presidency</h2>
+
+            <div class="blog-ind-content-img">
+                <img class="mask-img" src="./img/lastbanner-01.jpg" alt="">
+            </div>
+
+            <p class="blog_ind-para2">The Dravida Munnetra Kazhagam (DMK) which split from the Dravidar Kazhagam in 1949, inherited the anti-Hindi Imposition policies of its parent organisation. DMK's founder Annadurai had earlier participated in the anti-Hindi imposition agitations during 1938–40 and in the 1940s. In July 1953, the DMK launched an agitation for changing the name of a town from Kallakudi to Dalmiapuram. They claimed that the town's name (after Ramkrishna Dalmia) symbolised the exploitation of South India by the North
+            </p>
+            <p class="blog_ind-sub-para2">The Dravida Munnetra Kazhagam (DMK) which split from the Dravidar Kazhagam in 1949, inherited the anti-Hindi Imposition policies of its parent organisation. DMK's founder Annadurai had earlier participated in the anti-Hindi imposition agitations during 1938–40 and in the 1940s. In July 1953, the DMK launched an agitation for changing the name of a town from Kallakudi to Dalmiapuram. They claimed that the town's name (after Ramkrishna Dalmia) symbolised the exploitation of South India by the North
+            </p>
+
+            <section class="index-history text-center">
+                <div class="container">
+                    <div class="head">
+                        <h3>Dravida Munnetra Kazhagam </h3>
+                        <p>DMK was headed by Annadurai (as Secretary general) from 1949 until his death on 3 February 1969. He also served as Chief Minister of Tamil Nadu from 1967 to 1969.In August 1944, Periyar created the 'Dravidar Kazhagham' out of the Justice Party and the Self-Respect Movement at the Salem Provincial Conference.</p>
+                    </div>
+                    <div class="timeline row mx-auto">
+                        <div class="col-sm-6 full">
+                            <div class="row">
+                                <div class="offset-sm-1 col-sm-4 text-right pr-2">
+                                    <h4>1992</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>Member</h4>
+                                    <p> In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="offset-sm-1 col-sm-4 text-right">
+                                    <h4>1995-1997</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>Director Community</h4>
+                                    <p> In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="offset-sm-1 col-sm-4 text-right">
+                                    <h4>1998-1999</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>Director</h4>
+                                    <p> In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="offset-sm-1 col-sm-4 text-right">
+                                    <h4>1999-2000</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>Secretary</h4>
+                                    <p>In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam. </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="offset-sm-1 col-sm-4 text-right">
+                                    <h4>2000-2001</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>President Elect</h4>
+                                    <p> In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="offset-sm-1 col-sm-4 text-right">
+                                    <h4>2000-2001</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>District Chairman</h4>
+                                    <p> In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 full">
+                            <div class="row">
+                                <div class="col-sm-4 text-right">
+                                    <h4>2011-2012</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>President</h4>
+                                    <p> In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 text-right">
+                                    <h4>2013-2004</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>Chief Ministers</h4>
+                                    <p>In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 text-right">
+                                    <h4>2015-2016</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>Chief Ministers</h4>
+                                    <p> In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 text-right">
+                                    <h4>2016-2017</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>Chief Ministers</h4>
+                                    <p> In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 text-right">
+                                    <h4>2018-2019</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>Chief Ministers</h4>
+                                    <p>In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 text-right">
+                                    <h4>2020-2021</h4>
+                                </div>
+                                <div class="offset-sm-1 col-sm-6 text-left">
+                                    <h4>Chief Ministers</h4>
+                                    <p> In 1949 by Annadurai as a breakaway faction from the Dravidar Kazhagam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <style>
+                .index-history {
+                    background: var(--mygreybg);
+                    padding-top: 5em;
+                    padding-bottom: 5em;
+                }
+
+                .index-history .head h3 {
+                    padding-bottom: 1em;
+                    font-size: 200%;
+                    color: var(--myred);
+                }
+
+                .index-history .head p {
+                    font-weight: normal;
+                    font-size: 1em;
+                    width: 90%;
+                    margin: auto;
+                    color: var(--mygrey2);
+                    padding-bottom: 4em;
+                }
+
+                .timeline h4 {
+                    color: var(--myred);
+                    font-size: 100%;
+                }
+
+                .timeline p {
+                    color: var(--mygrey3);
+                    padding-top: .7em;
+                    font-size: 80%;
+                    width: 90%;
+                }
+
+                .timeline .col-sm-6 .row {
+                    height: 7em;
+                    position: relative;
+                }
+
+                .timeline .col-sm-6 .row .offset-sm-1.col-sm-6:before {
+                    content: "";
+                    height: 55%;
+                    width: 2px;
+                    bottom: 15%;
+                    position: absolute;
+                    left: -22px;
+                    background: var(--mygrey3);
+
+                }
+
+                .timeline .col-sm-6 .row .col-sm-6 p:after {
+                    content: "";
+                    height: 16px;
+                    width: 16px;
+                    border-radius: 50%;
+                    border: solid 2px var(--myred);
+                    top: 1px;
+                    position: absolute;
+                    left: -30px;
+                }
+            </style>
+
+            <div class="blog_ind-social-section">
+                <div class="blog_ind-social-heading">
+                    <div class="blog_ind-social-head">
+                        <h6>Share With Us</h3>
+                    </div>
+                    <div class="blog_ind-social">
+                        <a href="#"><img src="./img/f.png" alt=""></a>
+                        <a href="#"><img src="./img/instagram.png" alt=""></a>
+                        <a href="#"><img src="./img/t.png" alt=""></a>
+                        <a href="#"><img src="./img/l.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="blog_ind-news-link">
+                    <div class="blog_ind-news-nav">
+                        <a class="nav-link1 active" href="#home"
+                            style="color: black;font-family: 'cera_probold';">#DailyNews</a>
+                        <a class="nav-link1" href="#news">#Blog</a>
+                        <a class="nav-link1" href="#about">#Education</a>
+                        <a class="nav-link1" href="#about">#Politics</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="blog_ind-line">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTICLE SECTION--------------------->
+    <section class='aboutme-article-section'>
+        <div class="container">
+            <div class="aboutme-heartlogo">
+                <img src="img/blueline.png" alt="">
+                <p>RELATED ARTICLES</p>
+            </div>
+            <div class="aboutme-multi-blog-image">
+                <div class="aboutme-blog-img col-md-6">
+                    <div class="aboutme-blog1 ">
+                        <div class="aboutme-blog-content">
+                            <img src="img/arrow1.png" alt="">
+                            <h1>2016 Assembly Election</h1>
+                            <p> In the 2016 Tamil Nadu Assembly elections, the DMK formed an alliance with the Congress
+                                and other parties and contested the elections.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutme-blog-img col-md-6">
+                    <div class="aboutme-blog2 ">
+                        <div class="aboutme-blog-date">
+                        </div>
+                        <div class="aboutme-blog-content">
+                            <img src="img/arrow1.png" alt="">
+                            <h1>State Conferences</h1>
+                            <p> The first State Conference was held on 13th, 14th, 15th and 16th December 1951 at SIAA
+                                Stadium, Chennai.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPOINTEMENT SECTION------------------ -->
+    <section class="appointment-section">
+        <div class="container">
+            <div class="appointment-img">
+                <div class="appointment-content col-md-10">
+                    <!-- <img src="img/heartbeat.png" alt=""> -->
+                    <h1 class="appointment-heading1">BOOK A APPOINTMENT</h1>
+                    <h1 class="appointment-heading2">Get in touch<br>
+                        with us </h1>
+                </div>
+                <div class="appointment-btn">
+                    <a class="appoint-link" data-toggle="modal" data-target=".contact-form__modal"
+                        style="cursor: pointer;">GET APPOINTMENT</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CONTACT SECTION-------------- -->
+    <section class="downSection">
+        <div class="container">
+            <div class="footer-section">
+                <div class="downIcon">
+                    <a href="/"><img src="./img/logo-01.svg" style="width:273px; height: 60px;" alt="logo"></a>
+                </div>
+                <div class="downMenu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutme.html">ABOUT</a></li>
+                        <li><a href="endoscope.html">ELECTIONS</a></li>
+                        <li><a href="blogall.html">BLOG</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a data-toggle="modal" data-target=".contact-form__modal">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-line">
+                <p></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-section">
+                <div class="footer1-section col-xl-4">
+                    <div class="downPara">
+                        <p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy text
+                            Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy
+                            text </p>
+                    </div>
+                </div>
+
+                <div class="footer2-section col-xl-8">
+                    <div class="icon-groupD">
+                        <a href=" "><img src="img/youtube.png" alt=" "></a>
+                        <a href=" "><img src="img/twitter.png" alt=" "></a>
+                        <a href=" "><img src="img/linkedin.png" alt=" "></a>
+                        <a href=" "><img src="img/facebook.png" alt=" "></a>
+                    </div>
+                    <div class="copyright">
+                        <ul>
+                            <li><a href="">SITE MAP |</a></li>
+                            <li><a href="">PRIVACY POLICY |</a></li>
+                            <li><a href="">WWW.JEEVAGANAYYANATHAN.COM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER-------------- -->
+    <footer class="footer-text">
+        <p>ALL COPYRIGHTS JEEVAGANAYYANATHAN.COM</p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
